@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 
 import './screens/dialog_box.dart';
 import './screens/bottom_sheet.dart';
+import './screens/route_page1.dart';
 
 void main() {
   runApp(const MyApp());
@@ -22,7 +23,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const BottomSheetGetx(),
+      // home: const BottomSheetGetx(),
+      home: const RoutePageOne(),
     );
   }
 }

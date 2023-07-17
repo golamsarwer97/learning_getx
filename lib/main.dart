@@ -4,6 +4,8 @@ import 'package:get/get.dart';
 import './screens/dialog_box.dart';
 import './screens/bottom_sheet.dart';
 import './screens/route_page1.dart';
+import './screens/state_manage.dart';
+import './screens/state_manage_with_class.dart';
 
 void main() {
   runApp(const MyApp());
@@ -24,7 +26,8 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       // home: const BottomSheetGetx(),
-      home: const RoutePageOne(),
+      // home: const RoutePageOne(),
+      home: ClassManage(),
     );
   }
 }

@@ -6,6 +6,7 @@ import './screens/bottom_sheet.dart';
 import './screens/route_page1.dart';
 import './screens/state_manage.dart';
 import './screens/state_manage_with_class.dart';
+import './screens/getx_controller.dart';
 
 void main() {
   runApp(const MyApp());
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
       ),
       // home: const BottomSheetGetx(),
       // home: const RoutePageOne(),
-      home: ClassManage(),
+      home: GetControllerState(),
     );
   }
 }

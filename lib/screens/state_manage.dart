@@ -6,7 +6,7 @@ import 'package:get/get.dart';
 class StateManage extends StatelessWidget {
   // const StateManage({super.key});
 
-  var count = 0.obs;
+  var count = 0.obs; // observable variable
 
   void increment() {
     count++;

@@ -8,6 +8,7 @@ import './screens/state_manage.dart';
 import './screens/state_manage_with_class.dart';
 import './screens/getx_controller.dart';
 import './screens/internationalization.dart';
+import './models/messages.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,6 +21,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
+      translations: Messages(),
+      locale: const Locale('en', 'America'),
+      fallbackLocale: const Locale('en', 'America'),
       title: 'GetX',
       debugShowCheckedModeBanner: false,
       // darkTheme: ThemeData.dark(),
